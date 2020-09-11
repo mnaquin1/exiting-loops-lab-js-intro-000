@@ -15,6 +15,7 @@ continue
 } else {
   array[i] = changeValue
 }
+}
 return array
   }
-}
+
