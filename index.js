@@ -18,3 +18,11 @@ continue
 }
 return array
   }
+
+fuction findBy(array, findFn){
+  for (let i = 0; i < array.length; i++) {
+  if (findFn(array[i])) {
+return array[i]
+}
+}
+}
